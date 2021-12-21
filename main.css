@@ -1,0 +1,191 @@
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    
+}
+ 
+body {
+      font-family: 'Playfair Display', serif;
+      
+}
+body {
+    
+    background-size: auto;
+    background-image: url(material.jpg);
+    
+}
+p {
+  margin-top: 0px;
+  font-size: 17px;
+  
+  
+}
+blockquote {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  background-color: transparent;
+  border-top: 1px ;
+  border-bottom: 1px;
+  
+  background-image: url(Quotation-Mark-PNG-Free-Download.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 45px;
+  
+  text-indent: 28px;
+  }
+dl {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-stretch: expanded;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+ .header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(knit.jpg);
+  margin-bottom: 0px;
+  
+}
+
+h1
+{
+text-align: center;
+padding: 20px;
+margin-top: 0px;
+
+}
+
+#box 
+{
+  background-image: url(garment.jpg);
+  width: auto;
+  height: 220px;
+  padding-top: inherit;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: rgb(8, 8, 8);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+b {
+  font-family: 'Playfair Display', serif;
+  color: rgb(240, 81, 81);
+  font-size: 30px;
+  word-spacing: 40px;
+}
+article
+{
+float: inline-start;
+
+}
+#column1
+{
+    width: 32%;
+    height: 600px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+#column2
+{
+    
+    width: 31%; 
+    height: 600px;
+    float:left;
+    margin-top: 40px;
+    
+}
+#column3
+{
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin-top: 20px;
+    
+}
+
+#column4
+{
+  width: 32%;
+  height: 400px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  
+}
+
+#column5
+{
+    width: 32%;
+    height: 400px;
+    float: left;  
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+#column6
+{
+    width: 33%;
+    height: 400px;
+    float: left;  
+    margin-top: 15px;
+    margin-left: 10px;
+    
+}
+h2 {
+  font-size: 30px;
+  margin-top:15px;
+  font-family: 'Abril Fatface', cursive;
+}
+p1 {
+  font-size: 20px;
+}
+i {
+  font-size: 20px;
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  margin-top: 45px ;
+  color:rgb(240, 81, 81);
+  
+}

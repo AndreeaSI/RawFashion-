@@ -1,0 +1,159 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+  }
+  body {margin: 0;}
+
+  body {
+      font-family:  'EB Garamond', serif;
+      background-image: url(stitch.jpg);
+      text-align: center;
+}
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #080808;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: none;
+    margin-bottom: 0px;
+    
+  }
+
+  h1 {
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  p {
+    font-size: 22px;
+    text-align: left;
+    padding:60px;
+  }
+  #column {
+   width: 48%;
+   height:1000px;
+   padding: 20px;
+   float: left;
+  }
+
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .img1 { background-image: url("bella.png"); }
+  .img2 { background-image: url("gigi.jpeg"); }
+  .img3 { background-image: url("kendall.jpeg"); }
+  .img4 { background-image: url("hailey.jpeg"); }
+  .img5 { background-image: url("dualipa.png"); }
+  
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  #column1 {
+    
+      width: 48%;
+      height:1000px;
+      padding: 20px;
+      float: left;
+     }
+   
+     .bg-image1 {
+    
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  .img6 { background-image: url("alexa.jpg"); }
+  .img7 {background-image: url(anna.jpeg);}
+  .img8 { background-image: url("victoria.jpeg"); }
+  .img9 { background-image: url("oslen2.jpeg"); }
+  .img10 { background-image: url("oslen1.jpeg"); }
+
+  .bg-text1 {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 45px ;
+    color:rgb(240, 81, 81);
+    
+  }
+  .footer p {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }

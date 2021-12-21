@@ -1,0 +1,177 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+  }
+
+  h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 45px;
+  }
+ h2 {
+    font-size: 25px;
+      margin-top:30px;
+      text-align: center;
+
+ }
+
+  body {margin: 0;}
+
+  body {
+      font-family: 'Playfair Display', serif;
+      background-image: url(stitch.jpg);
+      
+}
+
+ul.no_bullet {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li.heart {
+      background-image: url(heartt.png);
+      background-position: left;
+      background-repeat: no-repeat;
+      height: 40px;
+      padding-left: 45px;
+      padding-top: 5px;
+      background-size:40px;
+      background-color:transparent;
+
+}
+.header {
+
+  text-align: center;
+  background-image: none;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  
+}
+#column1
+{
+    
+    width: 32%;
+    height: 900px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+  
+}
+
+#column2
+{
+    
+    
+    width: 32%; 
+    height: 1200px;
+    float: left;  
+    margin-left:15px;
+}
+#column3
+{
+  
+    width: 33%;
+    height: 900px;
+    float: left;  
+    margin-top: 5px;
+}
+p {
+    margin-top: 0px;
+}
+p2 {
+    font-size: 20px;
+}
+p3 {
+    font-size: 20px;
+    
+}
+  p4 {
+      font-size: 20px;
+      margin-top: 60px;
+  }
+  h5 {
+      font-size: 25px;
+      margin-top:30px;
+  }
+  ul.topnav {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #070707;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    border: 4px solid palevioletred;
+    
+    
+    background-color: transparent;
+
+    
+    background-image: url(Quotation-Mark-PNG-Free-Download.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    
+    text-indent: 28px;
+  }
+  caption {
+    font-size: 20px;
+    padding: 10px;
+  
+  }
+  table {
+    width: 100%;
+    padding: 10px;
+    margin-top:60px;
+    color:rgb(114, 92, 100);
+    text-align: center;
+    
+    
+  }
+  th {
+    background-color: rgb(238, 189, 201);
+    font-size: 20px;
+  }
+  tr {
+    background-color: rgb(250, 220, 225);
+    font-size: 17px;
+  }
+  #uk {
+    background-color: powderblue;
+  }
+  .footer {
+    text-align: right;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    margin-top: 70px;
+    color:rgb(240, 81, 81);
+    
+  }

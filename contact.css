@@ -1,0 +1,141 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+  }
+  body {margin: 0;}
+
+  body {
+      font-family: 'Abril Fatface', serif;
+      background-image: url(stitch.jpg);
+}
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #4CAF50;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+ .header {
+  padding: 60px;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+}
+
+input[type=submit] {
+
+  color:rgb(235, 140, 184);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color:white;
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: rgb(235, 140, 184);
+  opacity: 0.5;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+}
+form {
+    border: none;
+    font-family: 'Playfair Display', serif; 
+}
+.box {
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(241, 206, 241);
+    opacity: 0.5;
+    padding: 20px;
+    font-family:'Playfair Display', serif;
+  }
+input[type=checkbox] {
+    margin-top: 16px;
+    
+}
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 90px;
+    color:rgb(133, 121, 121);
+    
+}
+h2 {
+    font-family: 'Abril Fatface', cursive;
+}
+.map {
+   padding: 40px;
+   margin-top: 30px;
+   margin-left: 20px;
+}
+h3 {
+    font-size: 23px;
+    color: rgb(133, 121, 121);
+    padding: 5x;
+}
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    margin-top: 45px ;
+    color:rgb(235, 140, 184);
+    
+  }

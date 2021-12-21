@@ -1,0 +1,92 @@
+a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+a1{
+    text-decoration: none;
+   color: black;
+    font-size: 16px;
+  }
+  body {margin: 0;}
+
+  body {
+      font-family: 'Playfair Display', serif;
+      background-image: url(stitch.jpg);
+
+}
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #070707;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+  .header {
+    
+    text-align: center;
+    background-image: none;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    
+  }
+  #column1
+{
+    width: 48%;
+    height: 1000px;
+    float: left;
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+#column2
+{
+    background-color:none;
+    width: 40%; 
+    height: 1000px;
+    float:left;
+    margin-left: 140px;
+    margin-top: 20px;   
+}
+p {
+  margin-top: 0px;
+  font-size: 19px;
+}
+p1 {
+  font-size: 16px;
+
+}
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  margin-top: 45px ;
+  color:rgb(240, 81, 81);
+  
+}
